@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: --1
+    env: python
+    build:
+      pythonVersion: 3.11.8
+    startCommand: python bot.py  # или твоя команда запуска
